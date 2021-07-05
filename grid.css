@@ -11,6 +11,9 @@
     background-color: black;
     width: auto;
 }
+.center-main {
+    background-color: rgba(21,25,33,255);
+}
 .footer {
     grid-area: footer;
     background-color: rgba(40,40,40,255);
@@ -24,6 +27,16 @@
 .two-column-grid {
     display: grid;
     grid-template-columns: repeat(2, auto);
+    margin-left: 1rem;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.two-column-grid-2 {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    margin-left: 0.5rem;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 .grid-auto-flow {
     display: grid;
@@ -86,12 +99,26 @@
     grid-template-columns: auto 1fr auto;
     gap: 0.25rem;
 }
+.five-column-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 0.25rem;
+}
 .grid-auto-flow-media {
     display: grid;
     grid-auto-flow: column;
     /* justify-content: center; */
     gap: 0.25rem;
-    margin-left: 1rem;
+    /* margin-left: 1rem; */
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.grid-auto-flow-media-center {
+    display: grid;
+    grid-auto-flow: column;
+    /* justify-content: center; */
+    gap: 0.25rem;
+   
     margin-top: auto;
     margin-bottom: auto;
 }
