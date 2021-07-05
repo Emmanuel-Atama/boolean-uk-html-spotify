@@ -1,6 +1,63 @@
+.home-list a:hover {
+   background-color: rgb(155, 175, 182);
+   border-radius: 0.5rem;
+   width: 5.8rem;
+   transition: 1s;
+}
+.playlist li:hover {
+   background-color: rgb(236, 234, 234);
+   border-radius: 0.5rem;
+   width: 5.8rem;
+   transition: 1s;
+}
+.create-playlist p:hover {
+   background-color: rgb(236, 234, 234);
+   border-radius: 0.5rem;
+   width: 7rem;
+   transition: 1s;
+}
+.main-head a:hover {
+   text-decoration: 0.125rem underline orangered;
+   transition: 1s;
+ }
+ .recently-played img:hover {
+   width: 15rem;
+   height: 15rem;
+   margin-bottom: 0.75rem;
+   border-radius: 50%;
+   border: 0.125rem solid rgba(21,25,33,255);
+   transition: 1s;
+ }
+ .foot-icon img:hover {
+        width: 3rem;
+      height: 3rem;
+      transition: 0.5s;
+    }
+ .foot-icon-sm img:hover {
+   width: 1.5rem;
+   height: 1.5rem;
+   transition: 1s;
+ }
+ .foot-icon-mb img:hover {
+   width: 1.5rem;
+   height: 1.5rem;
+   margin-left: 0.5rem;
+   margin-right: 0.5rem;
+   margin-top: 0.5rem;
+   transition: 1s;
+ }
+ .foot-icon-play img:hover {
+   width: 2.2rem;
+   height: 2.2rem;
+   margin-left: 0.5rem;
+   margin-right: 0.5rem;
+   transition: 1s;
+ }
 .progress-bar:hover {
    width: 80%;
-      }
-      .volume-bar:hover {
-        width: 80%;
-           }
+   transition: 1s;
+}
+.volume-bar:hover {
+width: 80%;
+transition: 1s;
+}

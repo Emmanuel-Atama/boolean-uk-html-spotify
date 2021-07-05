@@ -109,17 +109,13 @@ padding-top: 0.4rem;
   width: 1.5rem;
   height:1.5rem;
     }
-    .trending {
+    .main-head {
       margin-top: 1rem;
-      margin-left: auto;
-      margin-right: auto;
     }
-    /* .center-main {
-      margin-left: 1rem;
-    } */
+  
     .recently-played img {
-      width: 15.5rem;
-      height: 15.5rem;
+      width: 15rem;
+      height: 15rem;
       margin-bottom: 0.75rem;
     }
     .margin-left {
@@ -201,4 +197,8 @@ padding-top: 0.4rem;
   height: 100%;
   width: 20%;
   transition: 3s;
-    }
+}
+.scroll-section {
+  height: calc(100vh - 13.1875rem);
+  overflow-y: scroll;
+}
